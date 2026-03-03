@@ -41,7 +41,6 @@
 
 ### 🌐 تواصل معنا
 * **Discord**: [[اضغط هنا للانضمام إلى السيرفر]](https://discord.com/invite/QhZsPzpp)
-* **GitHub**: [رابط مستودع المشروع]
 
 ---
 <p align="center">

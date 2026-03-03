@@ -1,7 +1,7 @@
 #  D3M0N3T EXECUTER - v5.4
 
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/owakcx2014/D3M0N3T/main/D5.png](https://github.com/owakcx2014/D3M0N3T/blob/main/D5.png?raw=true)" width="180" alt="D3M0N3T Logo">
+  <img src="https://github.com/owakcx2014/D3M0N3T/blob/main/D5.png?raw=true" width="180" alt="D3M0N3T Logo">
 </p>
 
 ---

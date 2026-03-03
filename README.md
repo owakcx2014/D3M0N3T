@@ -1,7 +1,7 @@
 #  D3M0N3T EXECUTER - v5.4
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YourUsername/YourRepo/main/D5.png" width="180" alt="D3M0N3T Logo">
+  <img src="https://raw.githubusercontent.com/owakcx2014/D3M0N3T/main/D5.png" width="180" alt="D3M0N3T Logo">
 </p>
 
 ---
@@ -40,7 +40,7 @@
 ---
 
 ### 🌐 تواصل معنا
-* **Discord**: [اضغط هنا للانضمام إلى السيرفر]
+* **Discord**: [[اضغط هنا للانضمام إلى السيرفر]](https://discord.com/invite/QhZsPzpp)
 * **GitHub**: [رابط مستودع المشروع]
 
 ---

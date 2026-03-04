@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="D5.png">
+    
+    <title>D3M0N3T | تحميل الإصدار 6.4</title>
+    
+    <style>
+        :root {
+            --primary: #8a2be2;
+            --bg: #0a0a0a;
+            --card: #121212;
+            --text-dim: #888;
+        }
+        body {
+            background-color: var(--bg);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        /* تأثير النبض للخلفية */
+        body::before {
+            content: "";
+            position: absolute;
+            width: 150%;
+            height: 150%;
+            background: radial-gradient(circle, rgba(138, 43, 226, 0.08) 0%, transparent 60%);
+            z-index: -1;
+            animation: pulse 8s ease-in-out infinite;
+        }
+        @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+
+        .container {
+            text-align: center;
+            background: var(--card);
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid #222;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+            max-width: 420px;
+            width: 90%;
+            border-top: 2px solid var(--primary);
+        }
+        .logo { 
+            width: 120px; 
+            height: 120px;
+            object-fit: cover;
+            border-radius: 20px; 
+            margin-bottom: 25px; 
+            border: 2px solid var(--primary);
+            box-shadow: 0 0 20px rgba(138, 43, 226, 0.3);
+        }
+        h1 { font-size: 2.2rem; margin: 0; font-weight: 800; }
+        .version-badge { 
+            background: #1a1a1a; 
+            padding: 2px 10px; 
+            border-radius: 6px; 
+            color: var(--primary); 
+            font-size: 0.8rem;
+            vertical-align: middle;
+            border: 1px solid #333;
+        }
+        p { color: var(--text-dim); font-size: 0.95rem; margin: 20px 0 35px 0; line-height: 1.6; }
+        
+        .download-btn {
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 16px 45px;
+            border-radius: 12px;
+            font-weight: bold;
+            display: inline-block;
+            transition: 0.3s all;
+            font-size: 1.1rem;
+        }
+        .download-btn:hover { 
+            transform: translateY(-5px); 
+            background: #9d42f5;
+            box-shadow: 0 10px 25px rgba(138, 43, 226, 0.5);
+        }
+        
+        .footer { 
+            margin-top: 30px; 
+            font-size: 0.75rem; 
+            color: #444;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="D5.png" alt="D3M0N3T Logo" class="logo">
+        <h1>D3M0N3T <span class="version-badge">V6.4</span></h1>
+        <p>الإطار الأمثل لتنفيذ السكربتات بسرعة فائقة واجهة عصرية تدعم ملفات TXT و LUA.</p>
+        
+        <a href="https://github.com/owakcx2014/D3M0N3T/releases/download/D3M0N3T-v6.4/D3M0N3T.v6.4.zip" class="download-btn">تحميل البرنامج</a>
+        
+        <div class="footer">
+            DEVELOPED BY D3M0N3T3R5 TEAM © 2026
+        </div>
+    </div>
+</body>
+</html>

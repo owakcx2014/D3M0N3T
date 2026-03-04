@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="icon" type="image/png" href="D5.png">
-    
     <title>D3M0N3T | تحميل الإصدار 6.4</title>
-    
     <style>
         :root {
             --primary: #8a2be2;
+            --discord: #5865F2; /* لون الديسكورد الرسمي */
             --bg: #0a0a0a;
             --card: #121212;
             --text-dim: #888;
+            --secondary: #252525;
         }
         body {
             background-color: var(--bg);
@@ -22,22 +21,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
-            overflow: hidden;
         }
-        /* تأثير النبض للخلفية */
-        body::before {
-            content: "";
-            position: absolute;
-            width: 150%;
-            height: 150%;
-            background: radial-gradient(circle, rgba(138, 43, 226, 0.08) 0%, transparent 60%);
-            z-index: -1;
-            animation: pulse 8s ease-in-out infinite;
-        }
-        @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
-
         .container {
             text-align: center;
             background: var(--card);
@@ -45,63 +31,91 @@
             border-radius: 24px;
             border: 1px solid #222;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
-            max-width: 420px;
+            max-width: 450px;
             width: 90%;
-            border-top: 2px solid var(--primary);
+            border-top: 3px solid var(--primary);
         }
         .logo { 
-            width: 120px; 
-            height: 120px;
-            object-fit: cover;
+            width: 110px; 
+            height: 110px;
             border-radius: 20px; 
-            margin-bottom: 25px; 
+            margin-bottom: 20px; 
             border: 2px solid var(--primary);
-            box-shadow: 0 0 20px rgba(138, 43, 226, 0.3);
         }
-        h1 { font-size: 2.2rem; margin: 0; font-weight: 800; }
+        h1 { font-size: 2rem; margin: 0; font-weight: 800; letter-spacing: 1px; }
         .version-badge { 
             background: #1a1a1a; 
             padding: 2px 10px; 
             border-radius: 6px; 
             color: var(--primary); 
             font-size: 0.8rem;
-            vertical-align: middle;
             border: 1px solid #333;
         }
-        p { color: var(--text-dim); font-size: 0.95rem; margin: 20px 0 35px 0; line-height: 1.6; }
+        p { color: var(--text-dim); font-size: 0.95rem; margin: 15px 0 30px 0; line-height: 1.6; }
         
-        .download-btn {
+        .main-btn {
             background: var(--primary);
             color: white;
             text-decoration: none;
-            padding: 16px 45px;
+            padding: 15px 0;
             border-radius: 12px;
             font-weight: bold;
-            display: inline-block;
-            transition: 0.3s all;
+            display: block;
+            width: 100%;
+            margin-bottom: 12px;
+            transition: 0.3s;
             font-size: 1.1rem;
         }
-        .download-btn:hover { 
-            transform: translateY(-5px); 
-            background: #9d42f5;
-            box-shadow: 0 10px 25px rgba(138, 43, 226, 0.5);
+        .main-btn:hover { background: #9d42f5; transform: translateY(-3px); }
+
+        .discord-btn {
+            background: var(--discord);
+            color: white;
+            text-decoration: none;
+            padding: 12px 0;
+            border-radius: 12px;
+            font-weight: bold;
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+            transition: 0.3s;
         }
-        
-        .footer { 
-            margin-top: 30px; 
-            font-size: 0.75rem; 
-            color: #444;
-            letter-spacing: 0.5px;
+        .discord-btn:hover { background: #4752c4; transform: translateY(-2px); }
+
+        .secondary-btns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
         }
+        .sec-btn {
+            background: var(--secondary);
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            transition: 0.3s;
+            border: 1px solid #333;
+        }
+        .sec-btn:hover { background: #333; border-color: var(--primary); }
+
+        .footer { margin-top: 30px; font-size: 0.7rem; color: #444; }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="D5.png" alt="D3M0N3T Logo" class="logo">
         <h1>D3M0N3T <span class="version-badge">V6.4</span></h1>
-        <p>الإطار الأمثل لتنفيذ السكربتات بسرعة فائقة واجهة عصرية تدعم ملفات TXT و LUA.</p>
+        <p>الأداء الأقوى، الواجهة الأجمل، والتحكم المطلق. <br> مشروعك المفضل لتنفيذ السكربتات بسلام.</p>
         
-        <a href="https://github.com/owakcx2014/D3M0N3T/releases/download/D3M0N3T-v6.4/D3M0N3T.v6.4.zip" class="download-btn">تحميل البرنامج</a>
+        <a href="https://github.com/owakcx2014/D3M0N3T/releases/download/D3M0N3T-v6.4/D3M0N3T.v6.4.zip" class="main-btn">⬇️ تحميل البرنامج</a>
+        
+        <a href="https://discord.com/invite/QhZsPzpp" class="discord-btn">💬 انضم لسيرفر الديسكورد</a>
+        
+        <div class="secondary-btns">
+            <a href="https://owakcx2014.github.io/about-demonet/" class="sec-btn">📖 عن المشروع</a>
+            <a href="https://github.com/owakcx2014/D3M0N3T" class="sec-btn">⭐ دعمنا بنجمة</a>
+        </div>
         
         <div class="footer">
             DEVELOPED BY D3M0N3T3R5 TEAM © 2026

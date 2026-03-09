@@ -327,6 +327,41 @@
         SUVORK5CYII=
 </value>
   </data>
+  <data name="btnPaste.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
   <data name="Editor.Hotkeys" xml:space="preserve">
     <value>Tab=IndentIncrease, Escape=ClearHints, PgUp=GoPageUp, PgDn=GoPageDown, End=GoEnd, Home=GoHome, Left=GoLeft, Up=GoUp, Right=GoRight, Down=GoDown, Insert=ReplaceMode, Del=DeleteCharRight, F3=FindNext, Shift+Tab=IndentDecrease, Shift+PgUp=GoPageUpWithSelection, Shift+PgDn=GoPageDownWithSelection, Shift+End=GoEndWithSelection, Shift+Home=GoHomeWithSelection, Shift+Left=GoLeftWithSelection, Shift+Up=GoUpWithSelection, Shift+Right=GoRightWithSelection, Shift+Down=GoDownWithSelection, Shift+Insert=Paste, Shift+Del=Cut, Ctrl+Back=ClearWordLeft, Ctrl+Space=AutocompleteMenu, Ctrl+End=GoLastLine, Ctrl+Home=GoFirstLine, Ctrl+Left=GoWordLeft, Ctrl+Up=ScrollUp, Ctrl+Right=GoWordRight, Ctrl+Down=ScrollDown, Ctrl+Insert=Copy, Ctrl+Del=ClearWordRight, Ctrl+0=ZoomNormal, Ctrl+A=SelectAll, Ctrl+B=BookmarkLine, Ctrl+C=Copy, Ctrl+E=MacroExecute, Ctrl+F=FindDialog, Ctrl+G=GoToDialog, Ctrl+H=ReplaceDialog, Ctrl+I=AutoIndentChars, Ctrl+M=MacroRecord, Ctrl+N=GoNextBookmark, Ctrl+R=Redo, Ctrl+U=UpperCase, Ctrl+V=Paste, Ctrl+X=Cut, Ctrl+Z=Undo, Ctrl+Add=ZoomIn, Ctrl+Subtract=ZoomOut, Ctrl+OemMinus=NavigateBackward, Ctrl+Shift+End=GoLastLineWithSelection, Ctrl+Shift+Home=GoFirstLineWithSelection, Ctrl+Shift+Left=GoWordLeftWithSelection, Ctrl+Shift+Right=GoWordRightWithSelection, Ctrl+Shift+B=UnbookmarkLine, Ctrl+Shift+C=CommentSelected, Ctrl+Shift+N=GoPrevBookmark, Ctrl+Shift+U=LowerCase, Ctrl+Shift+OemMinus=NavigateForward, Alt+Back=Undo, Alt+Up=MoveSelectedLinesUp, Alt+Down=MoveSelectedLinesDown, Alt+F=FindChar, Alt+Shift+Left=GoLeft_ColumnSelectionMode, Alt+Shift+Up=GoUp_ColumnSelectionMode, Alt+Shift+Right=GoRight_ColumnSelectionMode, Alt+Shift+Down=GoDown_ColumnSelectionMode</value>
   </data>

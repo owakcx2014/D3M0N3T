@@ -20,7 +20,7 @@ namespace D3M0N3T
 				Application.DoEvents();
 
 				// „œ… ŸÂÊ— «·‘«‘… (À«‰Ì Ì‰)
-				System.Threading.Thread.Sleep(2000);
+				System.Threading.Thread.Sleep(5000);
 
 				splash.Close();
 			}

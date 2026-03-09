@@ -1,4 +1,8 @@
-﻿namespace D3M0N3T
+﻿using System;
+using System.Drawing; // هذا سيحل أخطاء Color, Point, Size, Font
+using System.Windows.Forms; // هذا سيحل أخطاء Button, TabControl, TabPage
+
+namespace D3M0N3T
 {
     partial class D3M0N3T
     {
@@ -45,6 +49,7 @@
             tabPage4 = new TabPage();
             webView23 = new Microsoft.Web.WebView2.WinForms.WebView2();
             tableLayoutPanel1 = new TableLayoutPanel();
+            btnPaste = new Button();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)Editor).BeginInit();
@@ -88,7 +93,7 @@
             atach.Font = new Font("Calibri", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             atach.ForeColor = SystemColors.Control;
             atach.Image = (Image)resources.GetObject("atach.Image");
-            atach.Location = new Point(45, 407);
+            atach.Location = new Point(3, 414);
             atach.MaximumSize = new Size(10000, 10000);
             atach.MinimumSize = new Size(30, 30);
             atach.Name = "atach";
@@ -99,7 +104,7 @@
             // 
             // btnOpen
             // 
-            btnOpen.Anchor = AnchorStyles.Bottom;
+            btnOpen.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             btnOpen.AutoSize = true;
             btnOpen.BackColor = Color.BlueViolet;
             btnOpen.Cursor = Cursors.Hand;
@@ -108,7 +113,7 @@
             btnOpen.Font = new Font("Calibri", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnOpen.ForeColor = SystemColors.Control;
             btnOpen.Image = (Image)resources.GetObject("btnOpen.Image");
-            btnOpen.Location = new Point(269, 407);
+            btnOpen.Location = new Point(204, 409);
             btnOpen.MaximumSize = new Size(10000, 10000);
             btnOpen.MinimumSize = new Size(30, 30);
             btnOpen.Name = "btnOpen";
@@ -119,7 +124,7 @@
             // 
             // clear
             // 
-            clear.Anchor = AnchorStyles.Bottom;
+            clear.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             clear.AutoSize = true;
             clear.BackColor = Color.BlueViolet;
             clear.Cursor = Cursors.Hand;
@@ -128,7 +133,7 @@
             clear.Font = new Font("Calibri", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             clear.ForeColor = SystemColors.Control;
             clear.Image = (Image)resources.GetObject("clear.Image");
-            clear.Location = new Point(500, 403);
+            clear.Location = new Point(579, 408);
             clear.MaximumSize = new Size(10000, 10000);
             clear.MinimumSize = new Size(30, 30);
             clear.Name = "clear";
@@ -156,6 +161,7 @@
             // tabPage1
             // 
             tabPage1.BackColor = Color.BlueViolet;
+            tabPage1.Controls.Add(btnPaste);
             tabPage1.Controls.Add(Editor);
             tabPage1.Controls.Add(atach);
             tabPage1.Controls.Add(clear);
@@ -186,7 +192,7 @@
     '\''
     };
             Editor.AutoIndentCharsPatterns = "^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>[^;=]+);\r\n^\\s*(case|default)\\s*[^:]*(?<range>:)\\s*(?<range>[^;]+);";
-            Editor.AutoScrollMinSize = new Size(115, 14);
+            Editor.AutoScrollMinSize = new Size(387, 14);
             Editor.AutoSize = true;
             Editor.BackBrush = null;
             Editor.BackColor = Color.Black;
@@ -212,7 +218,7 @@
             Editor.ServiceLinesColor = Color.Black;
             Editor.Size = new Size(882, 412);
             Editor.TabIndex = 8;
-            Editor.Text = "print(\"no\")";
+            Editor.Text = "-- TEAM D3M0N3T3R5 GET IN IT FROM NOW!!!!!!!!";
             Editor.Zoom = 100;
             // 
             // tabPage2
@@ -301,6 +307,22 @@
             tableLayoutPanel1.Size = new Size(896, 563);
             tableLayoutPanel1.TabIndex = 9;
             // 
+            // btnPaste
+            // 
+            btnPaste.Anchor = AnchorStyles.Bottom;
+            btnPaste.BackColor = Color.BlueViolet;
+            btnPaste.BackgroundImage = (Image)resources.GetObject("btnPaste.BackgroundImage");
+            btnPaste.BackgroundImageLayout = ImageLayout.Center;
+            btnPaste.Cursor = Cursors.Hand;
+            btnPaste.FlatAppearance.BorderSize = 0;
+            btnPaste.FlatStyle = FlatStyle.Flat;
+            btnPaste.Location = new Point(416, 418);
+            btnPaste.Name = "btnPaste";
+            btnPaste.Size = new Size(104, 108);
+            btnPaste.TabIndex = 9;
+            btnPaste.UseVisualStyleBackColor = false;
+            btnPaste.Click += btnPaste_Click;
+            // 
             // D3M0N3T
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -345,5 +367,6 @@
         private FastColoredTextBoxNS.FastColoredTextBox Editor;
         private TabPage tabPage4;
         private Microsoft.Web.WebView2.WinForms.WebView2 webView23;
+        private Button btnPaste;
     }
 }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="D5.png">
+    <title>D3M0N3T | Version 7.2</title>
+    <style>
+        :root {
+            --primary: #8a2be2;
+            --bg: #0a0a0a;
+            --card: #121212;
+            --accent: #a855f7;
+            --success: #22c55e;
+        }
+        body {
+            background-color: var(--bg);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: var(--card);
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid #222;
+            max-width: 500px;
+            box-shadow: 0 10px 30px rgba(138, 43, 226, 0.1);
+        }
+        .logo { width: 100px; filter: drop-shadow(0 0 10px var(--primary)); }
+        h1 { margin: 15px 0 5px; font-size: 2.2rem; }
+        .version-badge {
+            background: var(--primary);
+            padding: 4px 12px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            vertical-align: middle;
+        }
+        .desc { color: #888; margin-bottom: 25px; }
+        
+        /* قسم الإحصائيات الجديد */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .stat-item {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 15px;
+            border: 1px solid #333;
+        }
+        .stat-item h4 { color: var(--accent); margin: 0 0 5px; font-size: 1rem; }
+        .stat-item p { margin: 0; font-size: 0.85rem; color: #bbb; }
+
+        .main-btn {
+            display: block;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 12px;
+            font-weight: bold;
+            transition: 0.3s;
+            margin-bottom: 10px;
+        }
+        .main-btn:hover { background: var(--accent); transform: translateY(-2px); }
+
+        .features-list {
+            text-align: right;
+            margin: 20px 0;
+            font-size: 0.9rem;
+            color: #ccc;
+        }
+        .features-list li { margin-bottom: 8px; list-style: none; }
+        .features-list li::before { content: "•"; color: var(--primary); margin-left: 8px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="D5.png" alt="Logo" class="logo">
+        <h1>D3M0N3T <span class="version-badge">V7.2</span></h1>
+        <p class="desc">السرعة، الخفة، والسيطرة الكاملة في ملف واحد.</p>
+        
+        <div class="stats-grid">
+            <div class="stat-item">
+                <h4>⚡ أداء صاروخي</h4>
+                <p>أسرع بـ 3 أضعاف من الإصدارات السابقة.</p>
+            </div>
+            <div class="stat-item">
+                <h4>🧠 ذاكرة ذكية</h4>
+                <p>استهلاك مستقر لا يتعدى 135MB.</p>
+            </div>
+        </div>
+
+        <ul class="features-list">
+            <li>دعم كامل لـ .NET Framework 8.4.</li>
+            <li>نظام "زر اللصق" الذكي لتوفير الوقت.</li>
+            <li>حقن مباشر (Native Injection) بدون ملفات زائدة.</li>
+            <li>واجهة WebView2 متطورة وفائقة الاستجابة.</li>
+        </ul>
+
+        <a href="https://github.com/owakcx2014/D3M0N3T/releases/download/v7.2_stable/D3M0N3T_7.2_Stable.zip" class="main-btn">⬇️ تحميل الإصدار المدمج (Single EXE)</a>
+        
+        <div style="margin-top: 20px; font-size: 0.8rem; color: #444;">
+            نظام حماية متطور | صنع بكل حب وبرمجة وخفة
+        </div>
+    </div>
+</body>
+</html>

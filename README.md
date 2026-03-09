@@ -19,6 +19,8 @@
 2. **Native Injection:** محرك حقن مباشر فائق الاستقرار.
 3. **WebView2 UI:** واجهة بنفسجية متطورة وفائقة الاستجابة.
 4. **Legacy Support:** كفاءة تصل إلى 20% حتى على الأجهزة القديمة (موديل 2008).
+   <img width="823" height="115" alt="image" src="https://github.com/user-attachments/assets/c9c86dbe-825f-49b1-9999-544aa4b8bbb1" />
+
 
 ## 📖 كيفية الاستخدام
 1. حمل ملف الـ ZIP من [هنا](https://github.com/owakcx2014/D3M0N3T/releases).

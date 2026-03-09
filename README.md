@@ -33,7 +33,6 @@
 ---
 
 ## 🌟 انضم إلينا
-* [Discord Server](رابط_سيرفرك_هنا)
-* [Support the Project](رابط_نجمة_جيت_هاب)
-
+* [Discord Server][(رابط_سيرفرك_هنا)](https://discord.gg/8ar89W5c)
+*إذا أعجبك البرنامج لا تنس دعمنا بنجمة
 *"D3M0N3T: Light as a feather, strong as a demon."*
